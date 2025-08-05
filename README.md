@@ -122,4 +122,5 @@ This project is licensed under the [MIT License](LICENSE).
 ## 🙋‍♂️ Author
 
 Made with ❤️ by [Luciano Abreu](https://github.com/LucianoAbreu)
+
 Feel free to explore, fork, and build on top of this!
