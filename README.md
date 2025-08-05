@@ -1,36 +1,125 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Bewear Store
 
-## Getting Started
+### _Online Clothing Store (Fictional Project)_
 
-First, run the development server:
+---
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+**Bewear** is a fictional e-commerce clothing store built as a personal learning project and portfolio showcase. No real commercial activity is intended — the platform is entirely for educational purposes.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+> ⚠️ This platform is not commercial. No real transactions or products are involved. The entire project is developed for educational and demonstration purposes.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+---
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## 🚀 Functional Features
 
-## Learn More
+- SEO-optimized (Next.js)
+- User authentication
+- Product cart management (add, remove, change quantity)
+- Order checkout with one or more products
+- Products with multiple variants (size, color, etc.)
+- Payment processing with Stripe (credit card)
+- Address management (multiple delivery addresses)
+- Order history (user can view past orders)
+- Category-based product browsing  
+  (T-Shirts, Pants, Shorts, Sneakers...)
 
-To learn more about Next.js, take a look at the following resources:
+---
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## ⚙️ Tech Stack
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+| Area       | Tech                                                   |
+| ---------- | ------------------------------------------------------ |
+| Frontend   | **React**, **Next.js**, **TailwindCSS**, **Shadcn/ui** |
+| Backend    | **Next.js**, **Node.js**                               |
+| Language   | **TypeScript**                                         |
+| Database   | **PostgreSQL** with **Neon**                           |
+| ORM        | **Drizzle**                                            |
+| Payments   | **Stripe**                                             |
+| Deployment | **Vercel**                                             |
 
-## Deploy on Vercel
+---
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## 📱 Design Philosophy
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+- **Mobile-first development** for consistent responsive layout and better SEO performance.
+- **Component-based architecture** using reusable UI building blocks.
+- **Dark/Light themes** using global Shadcn theme management.
+
+---
+
+## 🔧 Development Approach
+
+### 🧱 Component-Based Architecture
+
+The UI is built with modular and reusable components (buttons, cards, inputs, modals, etc.) to promote scalability and maintainability.
+
+### 📲 Mobile First
+
+Layout is designed mobile-first, ensuring responsiveness and better user experience on all devices.
+
+### 🧠 Atomic Design Principles
+
+Following Atomic Design methodology (Atoms, Molecules, Organisms), components are structured to simplify development and encourage clarity.
+
+### 🧼 Clean Code & Folder Structure
+
+- Type-safe logic via **TypeScript**
+- Descriptive naming, clean architecture, and a domain-based folder structure
+- Clear separation between business logic, presentation, and data layers
+
+### 🌐 SEO-Driven Architecture
+
+Using **Next.js** for server-side rendering and static generation ensures that search engines index pages efficiently — improving overall discoverability.
+
+### 🌈 UI Frameworks
+
+Built with **TailwindCSS** for utility-first styling, combined with **Shadcn/ui** for accessible and customizable components.
+
+### 🧪 Future-Proofing
+
+Project is developed with future enhancements in mind, including:
+
+- 🔮 AI-powered chatbot for shopping assistance
+- 📊 Admin dashboard for database management
+- ✨ Smooth UI/UX animations
+
+---
+
+## 📦 Progress Tracker
+
+| Feature                                | Status         |
+| -------------------------------------- | -------------- |
+| Project setup (Database + Dependences) | 🕐 In Progress |
+| User auth (E-mail + Google)            | 🕐 In Progress |
+| Home page                              | 🕐 In Progress |
+| UI Design system (Tailwind + Shadcn)   | 🕐 In Progress |
+| Catalog page                           | 🕐 In Progress |
+| Product page                           | 🕐 In Progress |
+| Cart functionality                     | 🕐 In Progress |
+| Address management                     | 🕐 In Progress |
+| Order history                          | 🕐 In Progress |
+| Order checkout                         | 🕐 In Progress |
+| Payment with Stripe                    | 🕐 In Progress |
+| Deployment (Vercel)                    | 🕐 In Progress |
+| UI animations                          | ⏳ Planned     |
+| Admin dashboard                        | ⏳ Planned     |
+| Chatbot assistant                      | ⏳ Planned     |
+
+---
+
+## 📄 License
+
+This project is licensed under the [MIT License](LICENSE).
+
+---
+
+## 📝 Notes
+
+> This application is **not** intended for production or commercial use. All data, transactions, and operations are **simulated** and serve only as a technical demonstration.
+
+---
+
+## 🙋‍♂️ Author
+
+Made with ❤️ by [Luciano Abreu](https://github.com/LucianoAbreu)
+Feel free to explore, fork, and build on top of this!
