@@ -89,7 +89,7 @@ Project is developed with future enhancements in mind, including:
 
 | Feature                                | Status         |
 | -------------------------------------- | -------------- |
-| Project setup (Database + Dependences) | 🕐 In Progress |
+| Project setup (Database + Dependences) | ✅ Done        |
 | User auth (E-mail + Google)            | 🕐 In Progress |
 | Home page                              | 🕐 In Progress |
 | UI Design system (Tailwind + Shadcn)   | 🕐 In Progress |
