@@ -1,6 +1,7 @@
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
 
 import SignInForm from "./components/sign-in-form";
+import SignUpForm from "./components/sign-up-form";
 
 const Authentication = () => {
   return (
@@ -14,7 +15,7 @@ const Authentication = () => {
           <SignInForm />
         </TabsContent>
         <TabsContent value="sign-up">
-          <div>Sign-up</div>
+          <SignUpForm />
         </TabsContent>
       </Tabs>
     </div>
