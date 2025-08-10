@@ -91,8 +91,8 @@ Project is developed with future enhancements in mind, including:
 | -------------------------------------- | -------------- |
 | Project setup (Database + Dependences) | ✅ Done        |
 | User auth (E-mail + Google)            | ✅ Done        |
-| Home page                              | 🕐 In Progress |
-| UI Design system (Tailwind + Shadcn)   | 🕐 In Progress |
+| Home page                              | ✅ Done        |
+| UI Design system (Tailwind + Shadcn)   | ✅ Done        |
 | Catalog page                           | 🕐 In Progress |
 | Product page                           | 🕐 In Progress |
 | Cart functionality                     | 🕐 In Progress |
