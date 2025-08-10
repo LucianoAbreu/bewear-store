@@ -90,7 +90,7 @@ Project is developed with future enhancements in mind, including:
 | Feature                                | Status         |
 | -------------------------------------- | -------------- |
 | Project setup (Database + Dependences) | ✅ Done        |
-| User auth (E-mail + Google)            | 🕐 In Progress |
+| User auth (E-mail + Google)            | ✅ Done        |
 | Home page                              | 🕐 In Progress |
 | UI Design system (Tailwind + Shadcn)   | 🕐 In Progress |
 | Catalog page                           | 🕐 In Progress |
