@@ -18,8 +18,8 @@ const ProductItem = ({ product }: ProductItemProps) => {
       <Image
         src={firstProductVariant.imageUrl}
         alt={firstProductVariant.name}
-        width={200}
-        height={200}
+        width={150}
+        height={150}
         className="rounded-2xl"
       />
       <div className="flex max-w-[150px] flex-col gap-1">
